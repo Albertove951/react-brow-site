@@ -7,11 +7,11 @@ export default class Slideshow extends Component {
         return (
             <div className="slideshow">
                 <Carousel 
-                width="350px" 
-                dynamicHeight="350px" 
+                width="500px" 
+                dynamicHeight="600px" 
                 infiniteLoop="true"  
-                showIndicators="false"
                 autoPlay="true"
+                interval="4500"
                 transitionTime="600"
                 >
                     <div>
