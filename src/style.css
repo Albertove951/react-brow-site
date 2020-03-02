@@ -1,22 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
+.background {
+    background-image: linear-gradient(#F4F5F9,  #D6D3CC);
+    height: 100vw;
 }
 
-.text-align-center {
-    text-align: center;
+.slideshow {
+    position: absolute;
+    right: 5%;
+    margin-top: 30px;
 }
-
-.header {
-    width: 100vw;
-    height: 100px;
-    background-image: linear-gradient(to bottom right, #2f6e58, #172723);
-}
-
-.header-font {
-    color: #f7f7f9;
-    font-size: 70px;
-    font-weight: 10;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-}
-
