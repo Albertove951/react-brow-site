@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font-color {
+    background-image: linear-gradient(to bottom right, #2f6e58, #C9A783);
+}
+
+.container {
+    background-image: linear-gradient( black, #4E4C57);
+    color: whitesmoke;
+    height: 17px;
+}
+
+.contact {
+    position: absolute;
+    right: 10%
+}
+
+.header {
+    width: 100vw;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+.header-font {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 10;
+    color: #343338;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
