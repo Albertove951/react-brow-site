@@ -1,0 +1,11 @@
+.background {
+    background-image: linear-gradient(#F4F5F9,  #D6D3CC);
+    height: 100vw;
+}
+
+.slideshow {
+    position: absolute;
+    right: 50%;
+    margin-top:10px;
+
+}
