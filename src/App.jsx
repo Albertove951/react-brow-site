@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from "./Components/Header";
 import Slideshow from "./Components/Slideshow";
 import AboutMe from "./Components/AboutMe";
+import Footer from "./Components/Footer";
 
 import "./header.css"
 import "./style.css"
@@ -14,6 +15,7 @@ export default class App extends Component {
         <Header/>
         <AboutMe/>
         <Slideshow/>
+        <Footer/>
         </div>
       )
     }
