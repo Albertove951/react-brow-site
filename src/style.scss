@@ -3,14 +3,19 @@
     padding: 0;
 }
 
+$Satisfy:'Satisfy', cursive;
+$Gabriela:'Gabriela', serif;
+$Primary-Color:#CEB595;
+$Secondary-Color:black;
+
 .header {
     height: 200px;
-    background-color:black;
+    background-color:$Secondary-Color;
     margin-bottom: 100px;
 }
 
 .container {
-    color: #CEB595;
+    color: $Primary-Color;
     height: 17px;
 }
 
@@ -23,23 +28,25 @@
 }
 
 .header-row p{
+    font-family: $Gabriela;
     margin-left: 15px;
 }
 
 .vertical-line {
-    border-left: 3px solid #CEB595;
+    border-left: 3px solid $Primary-Color;
     margin-left: 15px;
 }
 
 
 
 .header-title {
+    font-family: $Satisfy;
     margin-left: 90px;
     margin-bottom: -11px;
     font-size: 120px;
     font-weight: 1;
-    color:#CEB595;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    color:$Primary-Color;
+   
 }
 
 .header-shadow {
@@ -48,26 +55,17 @@
 
 
 .background {
-    background-color: #CEB595;
+    background-color: $Primary-Color;
     height: 100%;
 }
-
-/* .slideshow-container {
-
-} */
 
 .slideshow {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 70%;
+   width: 50%;
 }
 
-.about-me-title {
-    font-size: 80px;
-    text-align: center;
-    margin-top: 20px;
-}
 
 .about-me-box {
     display: flex;
@@ -78,8 +76,15 @@
 }
 
 .about-me-container {
-    background-color:black;
+    background-color:$Secondary-Color;
     width: 50%;
+}
+
+.about-me-title {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: $Satisfy;
 }
 
 .about-me-container p {
@@ -102,6 +107,7 @@
 .about-me-author {
     text-align: center;
     font-size: large;
+    font-family: $Gabriela;
 }
 
 .about-me-content {
@@ -109,11 +115,12 @@
     text-align: left;
     margin-left: 15px;
     margin-right: 15px;
+    font-family: $Gabriela;
 }
 
 
 .footer-container {
-    background-color: black;
+    background-color: $Secondary-Color;
     width: 100%;
     height: 200px;
     margin-top: 30px;
