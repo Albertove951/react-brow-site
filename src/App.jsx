@@ -14,9 +14,9 @@ export default class App extends Component {
       return(
         <div className="background">
         <Header/>
-        <AboutMe/>
         <Slideshow/>
-        <div className="bottom-line" ></div>
+        <AboutMe/>
+        {/* <div className="bottom-line" ></div> */}
         <Calendar/>
         <Footer/>
         </div>

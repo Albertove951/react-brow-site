@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+.header {
+    width: 100vw;
+    height: 200px;
+    background-color:black;
+    margin-bottom: 100px;
+}
+
 .container {
     color: #CEB595;
     height: 17px;
@@ -13,6 +20,7 @@
     flex-direction: row;
     float: right;
     margin-right: 55px;
+    margin-top: 15px;
 }
 
 .header-row p{
@@ -25,11 +33,6 @@
 }
 
 
-.header {
-    width: 100vw;
-    height: 105px;
-    background-color:black;
-}
 
 .header-title {
     margin-left: 90px;
