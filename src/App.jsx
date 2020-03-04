@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Header from "./Components/Header";
 import Slideshow from "./Components/Slideshow";
 import AboutMe from "./Components/AboutMe";
+import Service from "./Components/Service"
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar"
+import Testimonial from "./Components/Testimonial"
 
-import "./header.css"
-import "./style.css"
+import "./style.scss"
 
 export default class App extends Component {
  
@@ -16,7 +17,8 @@ export default class App extends Component {
         <Header/>
         <Slideshow/>
         <AboutMe/>
-        {/* <div className="bottom-line" ></div> */}
+        <Service/>
+        <Testimonial/>
         <Calendar/>
         <Footer/>
         </div>
