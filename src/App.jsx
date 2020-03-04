@@ -5,7 +5,6 @@ import AboutMe from "./Components/AboutMe";
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar"
 
-import "./header.css"
 import "./style.css"
 
 export default class App extends Component {
