@@ -1,15 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 200px;
+    background-color:black;
+    margin-bottom: 100px;
+}
+
+.container {
+    color: #CEB595;
+    height: 17px;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 55px;
+    margin-top: 15px;
+}
+
+.header-row p{
+    margin-left: 15px;
+}
+
+.vertical-line {
+    border-left: 3px solid #CEB595;
+    margin-left: 15px;
+}
+
+
+
+.header-title {
+    margin-left: 90px;
+    margin-bottom: -11px;
+    font-size: 120px;
+    font-weight: 1;
+    color:#CEB595;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.header-shadow {
+    border-bottom: 2px solid #D6D3CC;
+}
+
+
 .background {
     background-color: #CEB595;
     height: 100%;
 }
 
+/* .slideshow-container {
+
+} */
+
 .slideshow {
-    display: flex;
-    justify-content: baseline;
-    /* position: absolute; */
-    /* right: 15%; */
-    /* top: 30%; */
-    /* margin-top: 30px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
 }
 
 .about-me-title {
