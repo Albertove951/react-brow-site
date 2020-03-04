@@ -5,7 +5,7 @@ import AboutMe from "./Components/AboutMe";
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar"
 
-import "./style.css"
+import "./style.scss"
 
 export default class App extends Component {
  
@@ -15,7 +15,6 @@ export default class App extends Component {
         <Header/>
         <Slideshow/>
         <AboutMe/>
-        {/* <div className="bottom-line" ></div> */}
         <Calendar/>
         <Footer/>
         </div>

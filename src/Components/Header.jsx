@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         return (
             <div className="header ">
-                <h3 className="header-title ">My Website</h3>
+                <h3 className="header-title ">My Website.</h3>
                 <div className="container">
                     <div className="header-row">
                         <div className="vertical-line"></div>
