@@ -1,6 +1,6 @@
 .background {
     background-image: linear-gradient(#F4F5F9,  #D6D3CC);
-    height: 100vw;
+    height: 100%;
 }
 
 .slideshow {
@@ -33,8 +33,27 @@
     background-color: black;
     width: 100%;
     height: 200px;
+    margin-top: 30px;
 }
 
 .footer-font {
     color: white;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  .bottom-line {
+    border-top: 1px solid black;
+    margin-bottom: 20px;
 }
