@@ -15,6 +15,8 @@ export default class Header extends Component {
                         <div className="vertical-line"></div>
                         <p className="contact">Appointments</p>
                         <div className="vertical-line"></div>
+                        <p className="contact">Services</p>
+                        <div className="vertical-line"></div>
                         <p className="contact">About me</p>
                         <div className="vertical-line"></div>
                         <p className="contact">Testimonials</p>

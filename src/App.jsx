@@ -4,6 +4,7 @@ import Slideshow from "./Components/Slideshow";
 import AboutMe from "./Components/AboutMe";
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar"
+import Testimonial from "./Components/Testimonial"
 
 import "./style.scss"
 
@@ -15,6 +16,7 @@ export default class App extends Component {
         <Header/>
         <Slideshow/>
         <AboutMe/>
+        <Testimonial/>
         <Calendar/>
         <Footer/>
         </div>
