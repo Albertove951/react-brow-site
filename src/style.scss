@@ -29,12 +29,18 @@ $Secondary-Color:black;
 
 .header-row p{
     font-family: $Gabriela;
-    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-row p:hover{ 
+    color: $Secondary-Color;
+    background-color: $Primary-Color;
+    cursor: pointer;
 }
 
 .vertical-line {
     border-left: 3px solid $Primary-Color;
-    margin-left: 15px;
 }
 
 
