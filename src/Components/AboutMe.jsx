@@ -7,7 +7,7 @@ export default class AboutMe extends Component {
             <div className="about-me-container">
                     <p className="about-me-title">About Me</p>
                 <div>
-                    <img src="https://previews.123rf.com/images/lobodaphoto/lobodaphoto1905/lobodaphoto190500096/123512524-beautiful-siberian-husky-puppies-new-born.jpg" alt="" className="about-me-selfie" height="150px" width="150px" />
+                    <img src="https://previews.123rf.com/images/lobodaphoto/lobodaphoto1905/lobodaphoto190500096/123512524-beautiful-siberian-husky-puppies-new-born.jpg" alt="" className="about-me-selfie" />
                 </div>
                 <br/>
                 <p className="about-me-author">Mr. Puppy</p>

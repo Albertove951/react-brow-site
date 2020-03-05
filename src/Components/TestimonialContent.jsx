@@ -9,7 +9,7 @@ const TestimonialContent = [
     },
     {
       img: "https://vet-123a7.kxcdn.com/wp-content/uploads/2019/10/Search-Puppies-to-find-on-Pet-Classifieds-859x639.png",
-      content: "inseosin sinvosind dinsoneNulla facilisi cras fermentum odio eu feugiat pretium. Purus viverra accumsan in nisl nisi scelerisque. Nec tincilokjnt praesent semper feugiat nibh sed. Mattis ullamcorper velit sed ullamcorper. Velit sed ullamcorper morbi tincidunt ornare massa eget. Donec enim diam vulputate ut"
+      content: "sinvosind dinsoneNulla facilisi cras fermentum odio eu feugiat pretium. Purus viverra accumsan in nisl nisi scelerisque. Nec tincilokjnt praesent semper feugiat nibh sed. Mattis ullamcorper velit sed ullamcorper. Velit sed ullamcorper morbi tincidunt ornare massa eget. Donec enim diam vulputate ut"
     }
   ];
   
