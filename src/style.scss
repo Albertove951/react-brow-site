@@ -60,15 +60,24 @@ $Secondary-Color:black;
 }
 
 .void {
-    background-image: url("https://www.apollodesignscapes.com/media/catalog/product/cache/8/image/1000x1000/17f82f742ffe127f42dca9de82fb58b1/D/S/DSC-2x4-000116.jpg");
-    height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    font-family: $Gabriela;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: x-large;
 }
+
+// .void {
+//     background-image: url("https://www.apollodesignscapes.com/media/catalog/product/cache/8/image/1000x1000/17f82f742ffe127f42dca9de82fb58b1/D/S/DSC-2x4-000116.jpg");
+//     height: 500px;
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//     padding-top: 110px;
+//     padding-bottom: 110px;
+// }
 
 .font {
     font-family: $Satisfy;
