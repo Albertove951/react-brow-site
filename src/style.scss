@@ -11,7 +11,7 @@ $Secondary-Color:black;
 .header {
     height: 200px;
     background-color:$Secondary-Color;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -59,6 +59,34 @@ $Secondary-Color:black;
     border-bottom: 2px solid #D6D3CC;
 }
 
+.void {
+    font-family: $Gabriela;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+// .void {
+//     background-image: url("https://www.apollodesignscapes.com/media/catalog/product/cache/8/image/1000x1000/17f82f742ffe127f42dca9de82fb58b1/D/S/DSC-2x4-000116.jpg");
+//     height: 500px;
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//     padding-top: 110px;
+//     padding-bottom: 110px;
+// }
+
+.font {
+    font-family: $Satisfy;
+    color: $Secondary-Color;
+    text-align: center;
+    font-size: 80px;
+}
+
 
 .background {
     background-color: $Primary-Color;
@@ -66,17 +94,15 @@ $Secondary-Color:black;
 }
 
 .slideshow {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
    width: 50%;
+   height: 700px;
 }
 
 
 .about-me-box {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    // margin-top: 100px;
     width: 100%;
     height: 700px;
 }
@@ -95,10 +121,6 @@ $Secondary-Color:black;
 
 .about-me-container p {
     color: #CEB595;
-}
-
-.about-me-image {
-    width: 50%;
 }
 
 .about-me-selfie {
