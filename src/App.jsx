@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from "./Components/Header";
-import Slideshow from "./Components/Slideshow";
 import AboutMe from "./Components/AboutMe";
 import Service from "./Components/Service"
 import Footer from "./Components/Footer";
@@ -15,7 +14,9 @@ export default class App extends Component {
       return(
         <div className="background">
         <Header/>
-        <Slideshow/>
+        <div className="void">
+        <h3 className="font">something to fill the void</h3>
+        </div>
         <AboutMe/>
         <Service/>
         <Testimonial/>
