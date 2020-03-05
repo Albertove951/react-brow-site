@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
     "start": "node server/index.js",
-    "build": "webpack --mode development"
+    "build": "npm install --dev && webpack --mode development"
   },
   "author": "",
   "license": "ISC",
