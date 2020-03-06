@@ -3,18 +3,21 @@ import Iframe from "react-iframe"
 
 const Calendly = () => {
   return (
-    <div className="calendar">
+    <div className="calendar-container">
+      <div className="calendar-content">
+        <p className="calendar-title">Book An Appointment</p>
+        <div className="calendar-schedule">
+          <p>My Schedule</p>
+          <p>Mon - Fri </p>
+          <p>5:00am - 5:00pm</p>
+        </div>
+      </div>
       <Iframe
         src="https://calendly.com/albertovega00/puppy-apointment"
         className="iframe"
-        width="750px"
-        height="850px"
-        display="initial"
-        position="relative"
         overflow="hidden"
-        scrolling="no"
-        allowTransparency
-        allowFullScreen
+        scrolling={false}
+        align
       ></Iframe>
     </div>
   );
