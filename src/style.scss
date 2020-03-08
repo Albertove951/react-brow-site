@@ -236,6 +236,11 @@ $Secondary-Color:black;
     margin-right: 20px;
 }
 
+.footer-plug {
+    height: 50px;
+    width: 50px;
+}
+
 .footer-font {
     color:$Primary-Color;
 }
@@ -413,6 +418,49 @@ $Secondary-Color:black;
         width: 200px;
     }
 
-    
+    .calendar-container {
+        height: 800px;
+    }
 
+    .calendar-container {
+        height: 800px;
+    }
+
+    .calendar-schedule {
+        font-size: 40px;
+
+    }
+
+    .iframe {
+        height: 800px;
+    }
+
+    .location-container {
+        height: 600px;
+    }
+
+    .location-box {
+        height: 600px;
+    }
+
+    .location {
+        height: 600px;
+    }
+
+    .location-content {
+        font-size: 40px;
+    }
+
+    .footer-container {
+        height: 350px;
+    }
+
+    .footer-font {
+        font-size: xx-large;
+    }
+
+    .footer-plug {
+        height: 100px;
+        width: 100px;
+    }
  }
