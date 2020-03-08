@@ -39,15 +39,15 @@ export default class Header extends Component {
                     <div className="header-row">
                         {/* <div className="vertical-line"></div>
                         <p className="contact">Contact Me</p> */}
-                        <div className="vertical-line"></div>
+                        <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollAboutMe}>About me</p>
-                        <div className="vertical-line"></div>
+                        <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollService}>Services</p>
-                        <div className="vertical-line"></div>
+                        <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollTestimonial}>Testimonials</p>
-                        {/* <div className="vertical-line"></div>
+                        {/* <div className="header-line"></div>
                         <p className="contact">Location</p> */}
-                        <div className="vertical-line"></div>
+                        <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollCalendar}>Appointments</p>
                     </div>
                 </div>
