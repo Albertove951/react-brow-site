@@ -260,6 +260,8 @@ $Secondary-Color:black;
     font-family: $Satisfy;
     color: $Secondary-Color;
     margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .calendar-schedule {
@@ -292,13 +294,23 @@ $Secondary-Color:black;
     margin-top: -1px;
 }
 
-.location-content {
+.location-box {
     width: 50%;
     height: 500px;
     background-color: $Secondary-Color;
-    color: $Primary-Color;
-    font-size: 70px;
-    font-family: $Satisfy;
     text-align: center;
-    
+    color: $Primary-Color;
 }
+
+.location-title {
+    font-size: 80px;
+    font-family: $Satisfy;
+    margin-top: 80px;
+}
+
+.location-content {
+    font-size: 30px;
+    font-family: $Gabriela;
+}
+
+

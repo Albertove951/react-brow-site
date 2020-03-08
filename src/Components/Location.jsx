@@ -11,8 +11,10 @@ export default class Location extends Component {
                 className="location"
                >
                 </IFrame>
-                <div className="location-content">
-                    <p>Location</p>
+                <div className="location-box">
+                    <p className="location-title">Location</p>
+                    <p className="location-content">Fullerton, CA</p>
+
                 </div>
                 
             </div>
