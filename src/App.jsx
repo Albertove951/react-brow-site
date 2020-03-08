@@ -4,6 +4,7 @@ import AboutMe from "./Components/AboutMe";
 import Service from "./Components/Service"
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar"
+import Location from "./Components/Location"
 import Testimonial from "./Components/Testimonial"
 
 import "./style.scss"
@@ -35,6 +36,9 @@ export default class App extends Component {
         </div>
         <div id="calendar">
           <Calendar />
+        </div>
+        <div id="location">
+          <Location />
         </div>
         <Footer />
       </div>
