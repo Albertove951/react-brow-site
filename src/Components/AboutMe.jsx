@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel"
 export default class AboutMe extends Component {
     render() {
         return (
-            <div className="about-me-box">
+            <div  id="about-me"className="about-me-box">
             <div className="about-me-container">
                     <p className="about-me-title">About Me</p>
                 <div>

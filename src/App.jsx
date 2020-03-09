@@ -25,21 +25,11 @@ export default class App extends Component {
            neque viverra justo nec ultrices dui.
            </p>
         {/* </div> */}
-        <div id="about-me">
           <AboutMe />
-        </div>
-        <div id="service">
           <Service />
-        </div>
-        <div id="testimonial">
           <Testimonial />
-        </div>
-        <div id="calendar">
           <Calendar />
-        </div>
-        <div id="location">
           <Location />
-        </div>
         <Footer />
       </div>
     )
