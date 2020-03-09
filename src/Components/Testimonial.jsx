@@ -4,7 +4,7 @@ import TestimonialContent from "./TestimonialContent"
 export default class Testimonial extends Component {
     render() {
         return (
-            <div className="testimonial-container">
+            <div className="testimonial-container" id="testimonial">
                 <div className="testimonial-line"></div>
                 <p className="testimonial-title">Testimonials.</p>
                 {TestimonialContent.map((testimonial, i) => (

@@ -8,6 +8,7 @@ export default class Header extends Component {
         this.onScrollService = this.onScrollService.bind(this);
         this.onScrollTestimonial = this.onScrollTestimonial.bind(this);
         this.onScrollCalendar = this.onScrollCalendar.bind(this);
+        this.onScrollLocation = this.onScrollLocation.bind(this);
     }
 
     // change to all run on one function
@@ -31,6 +32,11 @@ export default class Header extends Component {
         element.scrollIntoView({behavior: "smooth"});
     }
 
+    onScrollLocation() {
+        let element = document.getElementById("Location");
+        element.scrollIntoView({behavior: "smooth"});
+    }
+
     render() {
         return (
             <div className="header ">
@@ -45,10 +51,10 @@ export default class Header extends Component {
                         <p className="contact" onClick={this.onScrollService}>Services</p>
                         <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollTestimonial}>Testimonials</p>
-                        {/* <div className="header-line"></div>
-                        <p className="contact">Location</p> */}
                         <div className="header-line"></div>
                         <p className="contact" onClick={this.onScrollCalendar}>Appointments</p>
+                        <div className="header-line"></div>
+                        <p className="contact" onClick={this.onScrollLocation}>Location</p>
                     </div>
                 </div>
             </div>

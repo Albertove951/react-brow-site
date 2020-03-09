@@ -3,7 +3,7 @@ import Iframe from "react-iframe"
 
 const Calendly = () => {
   return (
-    <div className="calendar-container">
+    <div id="calendar" className="calendar-container">
       <div className="calendar-content">
         <p className="calendar-title">Book An Appointment</p>
         <div className="calendar-schedule">
