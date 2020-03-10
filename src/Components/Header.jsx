@@ -33,7 +33,7 @@ export default class Header extends Component {
     }
 
     onScrollLocation() {
-        let element = document.getElementById("Location");
+        let element = document.getElementById("location");
         element.scrollIntoView({behavior: "smooth"});
     }
 
