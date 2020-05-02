@@ -1,5 +1,5 @@
 describe('visit website', () => {
     it('visits the website', () => {
-        expect(true).to.equal(true)
+        cy.visit('https://polar-bastion-62065.herokuapp.com/')
     })
 })
