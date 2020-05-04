@@ -4,6 +4,8 @@ READ ME!
 - npm start 
 - npm run build 
 
+made using React
+
 Website made to advertise a business and show my front end skills 
 website includes an About me
 a way to contact the business
