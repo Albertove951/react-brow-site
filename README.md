@@ -17,3 +17,11 @@ a way to make an Appointment
 visit site - https://polar-bastion-62065.herokuapp.com/
 
 -currently filled with fake content 
+
+#Testing
+Cypress
+
+Open cypress with 
+-npx cypress open
+
+Sass is used for the styling
